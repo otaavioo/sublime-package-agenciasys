@@ -1,0 +1,12 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [{
+        "name": "sublime-snippets",
+        "details": "https://github.com/otaavioo/sublime-snippets",
+        "labels": ["snippets"],
+        "releases": [{
+            "sublime_text": "*",
+            "tags": true
+        }]
+    }]
+}
