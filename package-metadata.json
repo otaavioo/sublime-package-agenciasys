@@ -1,0 +1,10 @@
+{
+    "sublime_text": "*",
+    "platforms": [
+        "*"
+    ],
+    "dependencies": [],
+    "version": "2016.02.12",
+    "description": "Macros e snippets úteis para o desenvolvimento na empresa Agência Sys",
+    "url": "https://github.com/otaavioo/sublime-snippets"
+}
