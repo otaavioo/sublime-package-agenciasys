@@ -1,0 +1,31 @@
+[
+	{
+		"args":
+		{
+			"block": false
+		},
+		"command": "toggle_comment"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"block": false
+		},
+		"command": "toggle_comment"
+	}
+]
