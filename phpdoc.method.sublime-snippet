@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:description}
+ *
+ * @access public
+ * @param String ${2:name} ${3:description}.
+ * @return Array ${4:return description}.
+ */
+]]></content>
+    <tabTrigger>phpdoc</tabTrigger>
+    <scope>source.php</scope>
+    <description>Method</description>
+</snippet>

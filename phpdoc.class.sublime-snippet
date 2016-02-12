@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:description}
+ *
+ * @package ${2:namespace}
+ * @author Otávio Augusto Borges Pinto <otavio@softers.com.br>
+ * @copyright Softers Sistemas de Gestão © 2014, Otávio Augusto Borges Pinto
+ */
+]]></content>
+    <tabTrigger>phpdoc</tabTrigger>
+    <scope>source.php</scope>
+    <description>Class</description>
+</snippet>
