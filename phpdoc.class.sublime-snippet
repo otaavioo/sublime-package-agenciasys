@@ -3,9 +3,9 @@
 /**
  * ${1:description}
  *
- * @package ${2:$TM_FILEPATH}
- * @author $TM_FULLNAME <$TM_EMAIL>
- * @copyright $TM_ORGANIZATION_NAME $TM_YEAR, $TM_FULLNAME
+ * @package ${2:namespace}
+ * @author Otávio Augusto Borges Pinto <otavio@agenciasys.com.br>
+ * @copyright Softers Sistemas de Gestão © 2014 Otávio Augusto Borges Pinto
  */
 ]]></content>
     <tabTrigger>phpdoc</tabTrigger>
