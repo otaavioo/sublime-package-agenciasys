@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+ob_start();
+print_r(\$${1:});
+\$print_r = ob_get_clean();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>print_r</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>AgênciaSys - print_r em memória</description>
+</snippet>

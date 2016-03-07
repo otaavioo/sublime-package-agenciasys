@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+error_log(${1:__METHOD__}, 3, '${2:/home/vagrant/log.txt}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>error</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>AgênciaSys - Error Log</description>
+</snippet>
