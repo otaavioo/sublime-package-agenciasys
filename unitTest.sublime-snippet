@@ -8,7 +8,7 @@ class ${1:Test} extends ${2:PHPUnit_Extensions_Database_TestCase}
     {
         if (!\$this->conn) {
             \$config = parse_ini_file('${3:path/to/file.ini}');
-            \$pdo = new \Piano\Config\Pdo($config);
+            \$pdo = new \Piano\Config\Pdo(\$config);
 
             \$this->conn = \$this->createDefaultDBConnection(\$pdo->get(), \$config['dbName']);
         }
