@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+class ${1:Test} extends ${2:PHPUnit_Extensions_Database_TestCase}
+{
+    private \$conn;
+
+    public function getConnection()
+    {
+        if (!\$this->conn) {
+            \$config = parse_ini_file('${3:path/to/file.ini}');
+            \$pdo = new \Piano\Config\Pdo($config);
+
+            \$this->conn = \$this->createDefaultDBConnection(\$pdo->get(), \$config['dbName']);
+        }
+
+        return \$this->conn;
+    }
+
+    public function getDataSet()
+    {
+        return \$this->createXMLDataSet('${4:path/to/file.xml}');
+    }
+
+    /**
+     * @test
+     */
+    public function ${5:testName}()
+    {
+        ${6:#code}
+    }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unitTest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>AgênciaSys - Unit Test</description>
+</snippet>
