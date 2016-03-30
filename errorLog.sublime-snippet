@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-error_log(${1:__METHOD__}, 3, '${2:/home/vagrant/log.txt}');
+error_log(${1:__METHOD__}."\n", 3, '${2:/${3:home}/${4:vagrant}/${5:log.txt}}');
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>error</tabTrigger>
